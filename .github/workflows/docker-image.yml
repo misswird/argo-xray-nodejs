@@ -19,7 +19,7 @@ jobs:
 
       # 3. 缓存 Docker 构建层
       - name: Cache Docker layers
-        uses: actions/cache@v2
+        uses: actions/cache@v3  # 更新为 v3
         with:
           path: /tmp/.buildx-cache
           key: ${{ runner.os }}-buildx-${{ github.sha }}
