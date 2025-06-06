@@ -1,21 +1,19 @@
 {
-  "name": "express-hello-world",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "Express Hello World",
+  "description": "Node.js project for Argo + Xray",
   "main": "index.js",
-  "repository": "",
-  "author": "Misaka-blog",
-  "license": "AGPL-3.0",
-  "private": false,
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6",
-    "request": "^2.88.2"
+    "express": "^4.17.1",  
+    "ws": "^8.0.0"         
   },
+  "devDependencies": {},
   "engines": {
-    "node": ">=14"
-  }
+    "node": "16.x"
+  },
+  "author": "misswird",
+  "license": "MIT"
 }
